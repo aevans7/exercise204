@@ -13,7 +13,7 @@ public class Car {
     private String type;
 
     @NotNull
-    @Size(min=3, max=25)
+    @Size(min=3, max=30)
     private String description;
 
     public String getName() {
